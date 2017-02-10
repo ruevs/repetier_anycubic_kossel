@@ -5,6 +5,7 @@ This repository contains the [Repetier-Firmware][] [version 0.92.9][ver]
 configured for the [Anycubic Kossel Linear][anycubic] delta 3D printer.
 
 This is a full assembly video and review of the printer:
+
 [![Anycubic assembly video](http://img.youtube.com/vi/Bd7Z4JIQjQM/0.jpg)](http://www.youtube.com/watch?v=Bd7Z4JIQjQM)
 
 [anycubic]: https://s.click.aliexpress.com/e/imu7Y7i
