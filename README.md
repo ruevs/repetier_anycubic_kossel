@@ -4,7 +4,8 @@ Repetier Firmware Configured for the [Anycubic Kossel Linear][anycubic] Delta 3D
 This repository contains the [Repetier-Firmware][] [version 0.92.9][ver]
 configured for the [Anycubic Kossel Linear][anycubic] delta 3D printer.
 
-This is a full assembly video and review of the printer https://www.youtube.com/watch?v=Bd7Z4JIQjQM
+This is a full assembly video and review of the printer:
+[![Anycubic assembly video](http://img.youtube.com/vi/Bd7Z4JIQjQM/0.jpg)](http://www.youtube.com/watch?v=Bd7Z4JIQjQM)
 
 [anycubic]: https://s.click.aliexpress.com/e/imu7Y7i
 [Repetier-Firmware]: https://www.repetier.com/documentation/repetier-firmware/
@@ -52,19 +53,25 @@ The parameters you will need to change are:
 
 ### Printer Height
 
-    #define Z_MAX_LENGTH 297.9
+```C
+#define Z_MAX_LENGTH 297.9
+```
 
 ### Diagonal rod lengrh
 
 It is unlikely you will have to change this setting. The rods seem to be made
 very precisely.
 
-    #define DELTA_DIAGONAL_ROD 217 // mm
+```C
+#define DELTA_DIAGONAL_ROD 217 // mm
+```
 
 ### Printer radius
 
-    #define ROD_RADIUS 98.5
-    #define PRINTER_RADIUS 98.5
+```C
+#define ROD_RADIUS 98.5
+#define PRINTER_RADIUS 98.5
+```
 
 [minow]: http://minow.blogspot.bg/index.html#4918805519571907051
 
