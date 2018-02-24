@@ -282,7 +282,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define Z_HOME_DIR 1
 #define X_MAX_LENGTH 200
 #define Y_MAX_LENGTH 200
-#define Z_MAX_LENGTH 297.9
+#define Z_MAX_LENGTH 282.00
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
@@ -324,8 +324,8 @@ It also can add a delay to wait for spindle to run on full speed.
 #define END_EFFECTOR_HORIZONTAL_OFFSET 0
 #define CARRIAGE_HORIZONTAL_OFFSET 0
 #define DELTA_MAX_RADIUS 90
-#define ROD_RADIUS 98.5
-#define PRINTER_RADIUS 98.5
+#define ROD_RADIUS 99.8
+#define PRINTER_RADIUS 99.8
 #define DELTA_HOME_ON_POWER 0
 #define STEP_COUNTER
 #define DELTA_X_ENDSTOP_OFFSET_STEPS 0
@@ -504,7 +504,7 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define LANGUAGE_CZ_ACTIVE 0
 #define LANGUAGE_PL_ACTIVE 0
 #define LANGUAGE_TR_ACTIVE 0
-#define UI_PRINTER_NAME "PAR Delta 20161206"
+#define UI_PRINTER_NAME "PAR Delta 20170303"
 #define UI_PRINTER_COMPANY "Anycubic"
 #define UI_PAGES_DURATION 5000
 #define UI_ANIMATION 0
@@ -674,7 +674,7 @@ Values must be in range 1..255
     "zMinPos": 0,
     "xLength": 200,
     "yLength": 200,
-    "zLength": 297.9,
+    "zLength": 282.00,
     "alwaysCheckEndstops": "1",
     "disableX": "0",
     "disableY": "0",
@@ -689,7 +689,7 @@ Values must be in range 1..255
     "deltaSegmentsPerSecondPrint": 180,
     "deltaSegmentsPerSecondTravel": 70,
     "deltaDiagonalRod": 217,
-    "deltaHorizontalRadius": 98.5,
+    "deltaHorizontalRadius": 99.8,
     "deltaAlphaA": 210,
     "deltaAlphaB": 330,
     "deltaAlphaC": 90,
@@ -763,7 +763,7 @@ Values must be in range 1..255
     "extrudeMaxLength": 160,
     "homeOrder": "HOME_ORDER_ZXY",
     "featureController": 2,
-    "uiPrinterName": "PAR Delta 20161206",
+    "uiPrinterName": "PAR Delta 20170303",
     "uiPrinterCompany": "Anycubic",
     "uiPagesDuration": 5000,
     "uiAnimation": "0",
