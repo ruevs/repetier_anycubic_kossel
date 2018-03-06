@@ -282,7 +282,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define Z_HOME_DIR 1
 #define X_MAX_LENGTH 200
 #define Y_MAX_LENGTH 200
-#define Z_MAX_LENGTH 282.00
+#define Z_MAX_LENGTH 268.1
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
@@ -311,7 +311,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define EXACT_DELTA_MOVES 1
 
 // Delta settings
-#define DELTA_DIAGONAL_ROD 217 // mm
+#define DELTA_DIAGONAL_ROD 229.4 // mm
 #define DELTA_ALPHA_A 210
 #define DELTA_ALPHA_B 330
 #define DELTA_ALPHA_C 90
@@ -674,7 +674,7 @@ Values must be in range 1..255
     "zMinPos": 0,
     "xLength": 200,
     "yLength": 200,
-    "zLength": 282.00,
+    "zLength": 268.1,
     "alwaysCheckEndstops": "1",
     "disableX": "0",
     "disableY": "0",
@@ -688,7 +688,7 @@ Values must be in range 1..255
     "zEndstopBack": 5,
     "deltaSegmentsPerSecondPrint": 180,
     "deltaSegmentsPerSecondTravel": 70,
-    "deltaDiagonalRod": 217,
+    "deltaDiagonalRod": 229.4,
     "deltaHorizontalRadius": 99.8,
     "deltaAlphaA": 210,
     "deltaAlphaB": 330,
